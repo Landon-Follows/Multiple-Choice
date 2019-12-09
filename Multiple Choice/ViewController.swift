@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var theAnswers: UITextField!
     
-    @IBOutlet weak var result: UITextView!
+    @IBOutlet weak var result: UILabel!
     
         // MARK: Methods
     
