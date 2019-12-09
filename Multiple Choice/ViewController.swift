@@ -73,9 +73,9 @@ class ViewController: UIViewController {
             
             //Get Correct answers
             
-            let indexAnswer = theAnswers.index(theAnswers.startIndex, offsetBy: offset)
+            let indextheAnswers = theAnswers.index(theAnswers.startIndex, offsetBy: offset)
             
-            let theAnswers = theAnswers[indexAnswer]
+            let theAnswers = theAnswers[indextheAnswers]
             
             if Student == theAnswers {
                 
@@ -85,7 +85,7 @@ class ViewController: UIViewController {
             
             offset += 1
             
-            result.text = "The Student Answered \(score) question(s) correctly!"
+            result.text = "The Student Got \(score) question(s) correctly!"
             
         }
     }
